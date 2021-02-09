@@ -23,7 +23,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Server
 	bool "Include Shadowsocks Server"
-	default y
+	default n
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR
 	bool "Include ShadowsocksR"
@@ -31,7 +31,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR_Server
 	bool "Include ShadowsocksR Server"
-	default y
+	default n
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_Xray
 	bool "Include Xray"
@@ -55,7 +55,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_Brook
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_NaiveProxy
 	bool "Include NaiveProxy"
-	default n
+	default y
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_kcptun
 	bool "Include kcptun"
